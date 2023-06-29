@@ -21,13 +21,18 @@ export class AppComponent {
         'NEATOJACKET',
         'Blue Jacket',
         '/assets/images/products/blue-jacket.jpg',
-        ['Women', 'Apparel', 'jackets & Vests'],
-        238.99)
+        ['Women', 'Apparel', 'Jackets & Vests'],
+        238.99),
+      new Product(
+        'NICEHAT',
+        'A Nice Black Hat',
+        '/assets/images/products/black-hat.jpg',
+        ['Men', 'Accessories', 'Hats'],
+        29.99)
     ];
   }
 
   productWasSelected(product: Product): void {
     console.log(`Product clicked: ${product}`);
-    
   }
 }
